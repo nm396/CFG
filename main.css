@@ -1,0 +1,20 @@
+.nav{
+	display: inline;
+}
+
+#footer {
+	min-height: 40px
+}
+
+#sidebar{
+	float: left;
+	width: 30%;
+	background-color: rgba(255, 0, 255, 0.6);
+	min-height: 600px;
+}
+#contentWrap{
+	float:right;
+	width: 70%;
+	background-color: rgba(0, 0, 255, 0.6);
+	min-height: 600px;
+}
