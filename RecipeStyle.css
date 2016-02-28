@@ -1,0 +1,94 @@
+.nav{
+	display: inline;
+}
+#sidebar{
+	float: left;
+	width: 20%;
+	background-color: #603311;
+	position: absolute;
+	height:100%;
+}
+	#sidebar h1{
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 400%;
+		text-align: center;
+		color:#CC7F32;
+	}
+
+	#sidebar h2{
+		font-family: 'Stalemate', cursive;
+		font-size:350%;
+		text-align: center;
+		color:#CC7F32;
+	}
+	ul.nav li a {
+		color:#CC7F32;
+		font-size:150%;
+		text-decoration: none;
+		font-family: 'Fredericka the Great', cursive;
+		padding: 50px;
+	}
+	ul.nav{
+		text-align: center;
+	}
+
+#contentWrap{
+	float:right;
+	width: 80%;
+	background-color: #EDC393;
+	position: absolute;
+	right:0;
+	height:100%;
+}
+	#contentWrap h1{
+		font-family: 'Stalemate', cursive;
+		font-size: 500%;
+		text-align: center;
+		color:#CC7F32;
+	}
+	#contentWrap h2{
+		font-family: 'Stalemate', cursive;
+		font-size: 500%;
+		color:#CC7F32;
+	}
+		#contentWrap h3{
+		font-family: 'Stalemate', cursive;
+		font-size: 200%;
+		color:#CC7F32;
+	}
+	.recipe{
+		margin: auto;
+		width:80%;
+	}
+	.image {
+		float:right;
+		width: 50%;
+		}
+
+		img{
+		display: inline;
+		/*float:right;*/
+		max-width:70%;
+       	margin-top: 400px;
+       	/*padding-right:300px;*/
+       	border-radius:20px;
+		border: 2px solid #CC7F32;
+	}
+	p{
+		color:643B0F;
+		font-size:120%;
+		line-height: 120%;
+	}
+	ul{
+		color:643B0F;
+		font-size:120%;
+	}
+	ul li{
+		padding: 5px;
+	}
+	.Intro{
+		font-family: "Times New Roman", Times, serif;
+		font-size: 120%;
+		font-style:italic;
+		
+	}

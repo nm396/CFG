@@ -1,0 +1,86 @@
+.nav{
+	display: inline;
+}
+#sidebar{
+	float: left;
+	width: 20%;
+	background-color: #603311;
+	position: absolute;
+	height:100%;
+}
+	#sidebar h1{
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 400%;
+		text-align: center;
+		color:#CC7F32;
+	}
+
+	#sidebar h2{
+		font-family: 'Stalemate', cursive;
+		font-size:350%;
+		text-align: center;
+		color:#CC7F32;
+	}
+	ul.nav li a {
+		color:#CC7F32;
+		font-size:150%;
+		text-decoration: none;
+		font-family: 'Fredericka the Great', cursive;
+		padding: 50px;
+	}
+	ul.nav{
+		text-align: center;
+	}
+
+#contentWrap{
+	float:right;
+	width: 80%;
+	background-color: #EDC393;
+	position: absolute;
+	right:0;
+	height:100%;
+
+}
+	#contentWrap h1{
+		font-family: 'Stalemate', cursive;
+		font-size: 500%;
+		text-align: center;
+		color:#CC7F32;
+	}
+
+
+
+	div.banner{
+		margin:auto;
+		width: 60%;
+	}
+
+	div img{
+		display: block;
+		width:50%;
+    	margin-left: auto;
+    	margin-right: auto;
+
+		border-radius:20px;
+		border: 2px solid #CC7F32;
+
+      }
+      	.intro{
+		margin-top:5%;
+		}
+
+	p{
+		color:643B0F;
+		margin:0 auto;
+		font-size: 120%;
+		}
+	ul{
+		color:#CC7F32;
+		margin:0 auto;
+		font-size: 120%	;
+		margin-top:5%;	
+	}
+	ul li{
+		padding:10px;
+	}
+
