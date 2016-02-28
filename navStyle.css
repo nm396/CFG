@@ -1,0 +1,41 @@
+body
+{
+background: #603311; 
+margin:0;
+}
+
+.nav{
+	display: inline;
+}
+#sidebar{
+	float: left;
+	width: 20%;
+	background-color: #603311;
+	position: absolute;
+}
+	#sidebar h1{
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 400%;
+		text-align: center;
+		color:#CC7F32;
+	}
+
+	#sidebar h2{
+		font-family: 'Stalemate', cursive;
+		font-size:350%;
+		text-align: center;
+		color:#CC7F32;
+	}
+	ul.nav li a {
+		color:#CC7F32;
+		font-size:150%;
+		text-decoration: none;
+		font-family: 'Fredericka the Great', cursive;
+		
+	}
+	ul.nav{
+		text-align: center;
+		font-size: 120%;
+	}
+
+	ul.nav li{padding: 10px;}
