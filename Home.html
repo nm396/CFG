@@ -2,8 +2,9 @@
 
 <head>
 	<title>No Clucks Given</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="navStyle.css">
 	<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Stalemate' rel='stylesheet' type='text/css'>
 </head>
@@ -22,57 +23,67 @@
         </ul>
     </div>
     <div class="container">
-    <div id="contentWrap">
+    <div id="contentWrap" class="images">
     	<!--images at http://imgur.com/a/rGXlu
     				  http://imgur.com/Iqsh7FR
     				  http://imgur.com/a/dyc9Q-->
     <div class="row">
 	<div class="col-sm-4 nopadding">
-    	<img src="https://i.imgur.com/VzIg4BZ.jpg" alt="peanut butter cup">
+    	<a href="#"><img src="https://i.imgur.com/VzIg4BZ.jpg" alt="peanut butter cup"></a>
     </div>
     <div class="col-sm-4 nopadding">
-    	<img src="http://i.imgur.com/QwLCCvv.jpg" alt="stir fry">
+    	<a href="#"><img src="http://i.imgur.com/QwLCCvv.jpg" alt="stir fry"></a>
     </div>
     <div class="col-sm-4 nopadding">
-	    <img src="https://i.imgur.com/19ItCGN.jpg" alt="chocolate cake">
+	    <a href="#"><img src="https://i.imgur.com/19ItCGN.jpg" alt="chocolate cake"></a>
 	</div>
 </div>
 <div class="row">
 	<div class="col-sm-4 nopadding">
-	    <img src="http://i.imgur.com/Z8WAS8c.jpg" alt="shepards pie">
+	    <a href="#"><img src="http://i.imgur.com/Z8WAS8c.jpg" alt="shepards pie"></a>
 	</div>
 	<div class="col-sm-4 nopadding">
-	    <img src="https://i.imgur.com/rW4kgJR.jpg" alt="cheesecake">
+	    <a href="#"><img src="https://i.imgur.com/rW4kgJR.jpg" alt="cheesecake"></a>
 	</div>
 	<div class="col-sm-4 nopadding">
-	    <img src="https://i.imgur.com/fApiOMn.jpg" alt="dahl">
+	    <a href="#"><img src="https://i.imgur.com/fApiOMn.jpg" alt="dahl"></a>
 	</div>
 </div>
 <div class="row">
 	<div class="col-sm-4 nopadding">
-	    <img src="http://i.imgur.com/f13HzHf.jpg" alt="avocado chocolate tart">
+	    <a href="#"><img src="http://i.imgur.com/f13HzHf.jpg" alt="avocado chocolate tart"></a>
 	</div>
 	<div class="col-sm-4 nopadding">
-	    <img src="http://i.imgur.com/iZu3cpH.jpg" alt="spicy tomato and lentil soup">
+	    <a href="#"><img src="http://i.imgur.com/iZu3cpH.jpg" alt="spicy tomato and lentil soup"></a>
 	</div>
 	<div class="col-sm-4 nopadding">
-	    <img src="http://i.imgur.com/ryGAYti.jpg" alt="oreo pancakes">
+	    <a href="#"><img src="http://i.imgur.com/ryGAYti.jpg" alt="oreo pancakes"></a>
 	</div>
 </div>
 <div class="row">
 	<div class="col-sm-4 nopadding">
-	    <img src="http://i.imgur.com/xNFkBL3.jpg" alt="pizza">
+	    <a href="#"><img src="http://i.imgur.com/xNFkBL3.jpg" alt="pizza"></a>
 	</div>
 	<div class="col-sm-4 nopadding">
-	    <img src="http://i.imgur.com/L6PRnuy.jpg" alt="chocolate orange cupcakes">
+	    <a href="#"><img src="http://i.imgur.com/L6PRnuy.jpg" alt="chocolate orange cupcakes"></a>
 	</div>
 	<div class="col-sm-4 nopadding">
-	    <img src="http://i.imgur.com/5l30HT6.jpg" alt="tagine">
+	    <a href="#"><img src="http://i.imgur.com/5l30HT6.jpg" alt="tagine"></a>
 	</div>
 	</div>
-	
+
 	</div>
 	</div>
     </div>
+
+   <script>
+   $('.images a').on('mouseover', function () {
+    $('.images a').not(this).addClass('fade');
+}).on('mouseout', function() {
+    $('.images a').removeClass('fade');
+});
+   </script>
+
+
 </body>
 
