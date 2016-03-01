@@ -50,7 +50,33 @@
 	ul li{
 		padding:10px;
 	}
+	ul li a{
+		color:#CC7F32;
+	}
+	.menu{
+		text-align: center
+	}
+	.menu li{
+		list-style-type: none;
+	}
 
 .footer{
 	padding: 10px;
 }
+
+/*.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(https://i.imgur.com/rW4kgJR.jpg) no-repeat;
+	background-size: 400px 350px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}*/
+
+	.img-circle{
+		margin-top: 50px;
+	}
