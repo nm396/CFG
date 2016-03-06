@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Bolognaise Bake</title>
+		<link rel="stylesheet" type="text/css" href="RecipeStyle.css">
+        <link rel="stylesheet" type="text/css" href="navStyle.css">
+		<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Stalemate' rel='stylesheet' type='text/css'>
+        
+	</head>
+
+	<body>
+		<div id="sidebar">
+		<h1>No Clucks given</h1>
+		<h2>Vegan Inspiration</h2>
+		<ul class='nav'>
+            <li><a href="Home">Home</a></li>
+            <li><a href="AboutMe">About Me</a></li>
+            <li><a href="Recipes">Recipes</a></li>
+            <li><a href="Nutrition">Nutrition</a></li>
+            <li><a href="tips">Handy Tips</a></li>
+        </ul>
+    </div>
+    <div id="contentWrap">
+    	<div class="image">
+    		<img src="http://i.imgur.com/3bwtRvy.jpg" alt="Bolognaise Bake">
+   		</div>
+   		 <div class="recipe">
+        
+    	<h1>Bolognaise Bake</h1>
+        <p class="Intro">OK so this was a bit time consuming but it was an experiment and it turned out to be so worth it.</p>
+
+    	<h2>Ingredients</h2>
+        
+        <ul>
+            <li>1 Onion</li>
+            <li>2 cloves Garlic</li>
+            <li>100g Cherry Tomatoes</li>
+            <li>1 Courgette</li>
+            <li>2 handfuls Mushrooms</li>
+            <li>1 large jar of Bolognaise Sauce.</li>
+            <li>2 cups dried Soya Protein Mince</li>
+            <li>400g 'Paccheri' pasta</li>
+            <li>(optional) Vegan cheese</li>
+            <li>Salt and Pepper to taste</li>
+           
+        </ul>
+        <p class="Intro">Sometimes I like to make my own sauces and sometimes I just feel like using a jar, let's be honest, they taste pretty good!</p>
+
+    	<h2>Method</h2>
+        <p>Put the soya mince in a bowl and cover in water. Let soak while prepping vegetables to rehydrate.</p>
+        <p>Chop all vegetables into small, thin chuncks (so they can fit easily in the pasta)</p>
+        <p>Fry the onion until soft (about 3 minutes) and add the garlic for a further minute.</p>
+        <p>Drain the mince and press any excess water out with a fork</p>
+        <p>Add the vegetables and soya mince and stir through. Let this cook for about 5 minutes</p>
+        <p>Pour on the sauce and let mixture simmer for 5-10minutes.</p>
+        <p>Preheat oven to 200C</p>
+        <p>Spoon some of the mixture on the bottom of a large oven proof dish</p>
+        <p>Align some pasta vertically in the dish so you can spoon some of the mixture in each pasta. Leave space between each one for sauce later and continue until the whole dish is filled.</p>
+        <p>Pour any remaining mixture over the pasta ensuring the edges are covered and all pasta is covered in sauce. (Otherwise it will not cook properly)</p>
+        <p>Grate some vegan cheese over the dish and bake in the oven for 45-50 minutes, until pasta is tender.</p>
+
+
+        
+    </br></br>
+        
+	</div>
+    </div>
+	</body>
+</html>
