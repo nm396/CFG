@@ -22,10 +22,10 @@
 		font-size: 200%;
 		color:#CC7F32;
 	}
-	.recipe{
+.recipe{
 		margin: auto;
 		width:75%;
-	}
+}
 	 
 
 	img {
@@ -40,8 +40,6 @@
 				
 		}
 		
-		
-
 	p{
 		color:643B0F;
 		font-size:120%;
@@ -60,6 +58,31 @@
 		font-style:italic;
 		
 	}
-	.Intro a{
-		color:643B0F;
-	}
+		.Intro a{
+			color:643B0F;
+		}
+
+
+	/*@media only screen and (max-width:500px){
+  .contentWrap h1{
+  	background-color: red;
+  	color: blue;
+  	margin: 0 auto;
+  	
+  }
+  #contentWrap .image{
+  	float: none;
+  	height:80px;
+  	margin:0 auto;
+  }
+  .contentWrap h2{
+    /*font-size: 20px;
+    margin:20px 0 30px 0;
+  }
+  
+  p{
+    /*font-size: 20px;
+    line-height: 24px;
+    }
+    
+}*/
