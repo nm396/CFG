@@ -8,9 +8,24 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="navStyle.css">
 	<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Stalemate' rel='stylesheet' type='text/css'>
+
+   <script>
+
+   $(function() {
+
+	  $('.images a').on('mouseover', function () {
+	    $('.images a').not(this).addClass('fade');
+	  }).on('mouseout', function() {
+	    $('.images a').removeClass('fade');
+	  });
+
+   })
+   function setup() {
+	}
+   </script>
 </head>
 
-<body>
+<body onLoad="setup()">
 	<div id="sidebar">
 		<h1>No Clucks given</h1>
 		<h2>Vegan Inspiration</h2>
@@ -109,14 +124,6 @@
 
 	</div>
 	</div>
-
-   <script>
-   $('.images a').on('mouseover', function () {
-    $('.images a').not(this).addClass('fade');
-}).on('mouseout', function() {
-    $('.images a').removeClass('fade');
-});
-   </script>
 
 
 </body>
