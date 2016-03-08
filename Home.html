@@ -3,7 +3,7 @@
 
 <head>
 	<title>No Clucks Given</title>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="navStyle.css">
@@ -12,20 +12,19 @@
    <script>
 
    $(function() {
-
+	if(!/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())){
 	  $('.images a').on('mouseover', function () {
 	    $('.images a').not(this).addClass('fade');
 	  }).on('mouseout', function() {
 	    $('.images a').removeClass('fade');
 	  });
+	}
 
    })
-   function setup() {
-	}
    </script>
 </head>
 
-<body onLoad="setup()">
+<body>
 	<div id="sidebar">
 		<h1>No Clucks given</h1>
 		<h2>Vegan Inspiration</h2>

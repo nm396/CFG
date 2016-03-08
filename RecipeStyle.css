@@ -63,14 +63,15 @@
 		}
 
 
-	/*@media only screen and (max-width:500px){
-  .contentWrap h1{
+	@media (max-width:500px){
+  #contentWrap h1{
   	background-color: red;
   	color: blue;
   	margin: 0 auto;
   	
   }
-  #contentWrap .image{
+
+  /*#contentWrap .image{
   	float: none;
   	height:80px;
   	margin:0 auto;
