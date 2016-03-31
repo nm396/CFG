@@ -3,9 +3,9 @@
 	float:right;
 	width: 80%;
 	/*border:1px solid #EDC393;*/
-	position: absolute;
-	right:0;
 	
+	right:0;
+  
 }
 /*	float:left; 
 	width:33%;
@@ -21,6 +21,14 @@
 .nopadding{ 
 	padding: 0 !important;
 	margin: 0 !important;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.container{
+  padding:0px;
+  margin:0px;
 }
 /*p {
   color: rgba(255,255,255,1);

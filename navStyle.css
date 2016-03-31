@@ -39,3 +39,16 @@ margin:0;
 	}
 
 	ul.nav li{padding: 10px;}
+
+@media(max-width:825px){
+#sidebar{min-width:165px !important;
+		}
+  h1{font-size: 300% !important;}
+  h2{font-size:300%;}
+  }
+}
+
+@media(max-width:660px){
+#sidebar{min-width:165px !important;
+		}
+}
