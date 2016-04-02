@@ -19,7 +19,7 @@
 			}
 		#contentWrap h3{
 		font-family: 'Stalemate', cursive;
-		font-size: 200%;
+		font-size: 300%;
 		color:#CC7F32;
 	}
 .recipe{
@@ -27,8 +27,12 @@
 		width:75%;
 }
 	 .outer{
-	 	height: 540px;
+	 	height: 580px;
 	 	vertical-align: middle;
+	 }
+	 .long{height:750px;}
+	 .extralong{
+	 	height:960;
 	 }
 	.outer .text{
 		width:50%;
@@ -41,7 +45,9 @@
 		padding-top: 100px;
 		float:right;			
 		}
-
+.extra{
+	padding-top: 200px
+}
 	img {
 		max-width: 100%;
 		vertical-align: middle;
@@ -68,6 +74,8 @@
 		font-family: "Times New Roman", Times, serif;
 		font-size: 120%;
 		font-style:italic;
+		margin-bottom: 40px;
+
 		
 	}
 		.Intro a{
