@@ -107,6 +107,9 @@
 		 		width: 40%;
 		 		float:right;
 		 	}
+		 	.specialtext{
+		 		width:100% !important;
+		 	}
 		}
 	@media (max-width:800px){
 			.outer{
