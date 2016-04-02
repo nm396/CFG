@@ -103,6 +103,10 @@
 		 .footer h3{
 		 	font-size: 80%;
 		 	}
+		 	.method{
+		 		width: 40%;
+		 		float:right;
+		 	}
 		}
 	@media (max-width:800px){
 			.outer{
