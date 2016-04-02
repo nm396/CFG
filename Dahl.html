@@ -1,12 +1,13 @@
 <html>
 	<head>
 		<title>Dahl </title>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="RecipeStyle.css">
         <link rel="stylesheet" type="text/css" href="navStyle.css">
 		<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Stalemate' rel='stylesheet' type='text/css'>
 	</head>
-
+ 
 	<body>
 		<div id="sidebar">
 		<h1>No Clucks Given</h1>
@@ -21,10 +22,13 @@
     </div>
     <div id="contentWrap">
     	
-   		 <div class="recipe">
+   		 <div class="recipe ">
     	<h1>Dahl</h1>
          <p class="Intro">I was lucky enough to stay with a local family during my stay in Sri Lanka. This is one of my favourite recipes I brought back with me. This is just a traditional dahl recipe, in Sri Lanka you eat a few curry dishes together so there are normally some separate vegetable dishes but you could add vegetables to cook in the dahl if desired</p>
          <div class="outer">
+            <div class="image">
+        <img src="https://i.imgur.com/fApiOMn.jpg" alt="dahl">
+         </div>
     <div class="text">
     	<h2>Ingredients</h2>
     	<ul>
@@ -42,9 +46,7 @@
 
     	</ul>
     </div>
-        <div class="image">
-        <img src="https://i.imgur.com/fApiOMn.jpg" alt="dahl">
-         </div>
+        
      </div>
 
     	<h2>Method</h2>
@@ -70,5 +72,22 @@
     </div>-->
 	</div>
     </div>
+
+      <!--<script>
+    $(function(){
+
+$(window).bind("resize",function(){
+    console.log($(this).width())
+    if($(this).width() <1000){
+    $('div').removeClass('image')
+    }
+    else{
+    $('div').addClass('image')
+    }
+
+})
+})
+</script>
+-->
 	</body>
 </html>
