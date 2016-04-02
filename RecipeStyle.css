@@ -99,6 +99,10 @@
  	margin-right:80px;
  }
 }
+@media (max-width:800px){
+		.outer{
+			height:300px;
+		}
 
   /*#contentWrap .image{
   	float: none;
