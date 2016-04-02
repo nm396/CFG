@@ -2,7 +2,7 @@
 	float:right;
 	width: 80%;
 	background-color: #EDC393;
-	position: absolute;
+	
 	right:0;
 }
 	#contentWrap h1{
@@ -26,20 +26,32 @@
 		margin: auto;
 		width:75%;
 }
-	 
+	 .outer{
+	 	height: 540px;
+	 	vertical-align: middle;
+	 }
+	.outer .text{
+		width:50%;
+		float: left;
+	}
+	.image {
+		width:50%;
+		height:100%;
+		display:inline-block;
+		padding-top: 100px;
+		float:right;			
+		}
 
 	img {
+		max-width: 100%;
+		vertical-align: middle;
+		display:block;
+		margin:0 auto;
 		max-width:500px;
-		margin-right:6%;
+		/*margin-right:6%;*/
 		border-radius:30px;
 		border: 2px solid #CC7F32;
 	}
-	.image {
-		float:right;
-		position: relative; top:450; right:200; 
-				
-		}
-		
 	p{
 		color:643B0F;
 		font-size:120%;
