@@ -118,6 +118,7 @@ ul.menu{
 		text-align: center;
 	}
 
+
 .footer h3{
 		font-family: 'Stalemate', cursive;
 		font-size: 300%;
@@ -129,7 +130,7 @@ ul.menu{
 		 .footer h3{
 		 	font-size: 250%;
 		 	}
-		 		
+
 		 	}	 	
 	@media (max-width:800px){
 			
@@ -143,3 +144,5 @@ ul.menu{
 		 	
 		 	}
 		}
+
+			
