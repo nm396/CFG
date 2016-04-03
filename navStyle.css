@@ -60,16 +60,19 @@ margin:0;
 		
 	}
 	}
+	@media(max-width:540px){
+	#sidebar h1{
+		font-size: 200%
+	}
+	#sidebar h2{
+		font-size: 200%
+	}
+		ul.nav li a {
+		color:#CC7F32;
+		font-size:90%;
+		text-decoration: none;
+		font-family: 'Fredericka the Great', cursive;
+		padding:0;
+	}
+	}
 
-
-//@media(max-width:825px){
-//#sidebar{min-width:165px !important;
-//		}
-//  h1{font-size: 300% !important;}
-//  h2{font-size:300%;}
-//  }
-//}
-//@media(max-width:660px){
-//#sidebar{min-width:165px !important;
-//		}
-//}
