@@ -25,15 +25,18 @@
 
 	div img{
 		display: block;
-		width:50%;
-		min-width: 345px;
+		width:50%;	
+		min-width: 265px;	
     	margin-left: auto;
     	margin-right: auto;
-
 		border-radius:20px;
 		border: 2px solid #CC7F32;
 
       }
+      .aboutImage{
+      	min-width: 345px;
+      }
+      
       	.intro{
 		margin-top:5%;
 		}
