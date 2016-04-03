@@ -41,3 +41,27 @@
 		color: 643B0F;
 		font-size: 120%;
 		}
+
+	.footer h3{
+		font-family: 'Stalemate', cursive;
+		font-size: 270%!important;
+		color:#CC7F32;
+		text-align: center;
+		margin-top: 50px
+	}
+
+
+	@media (max-width:1000px){
+		 .footer h3{
+		 	font-size: 150%!important;
+		 	}	
+		 	}	 
+
+	@media (max-width:800px){
+			
+			.footer h3{
+				font-size: 0px!important;
+				margin-top: 10px;
+			}
+			
+		}
