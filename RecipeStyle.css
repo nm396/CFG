@@ -124,7 +124,10 @@
 				font-size: 0 !important;
 			}
 		}
-
+.nil{
+	margin-top: 300px;
+	margin-bottom: 500px;
+}
   /*#contentWrap .image{
   	float: none;
   	height:80px;
