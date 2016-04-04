@@ -88,6 +88,7 @@
 }
 .carousel-control{
 	color:#FF9800;
+	border-radius:30px;
 }
 
 	@media (max-width:1000px){

@@ -33,7 +33,9 @@
 		color: #CC7F32;
 		text-decoration: bold;
 	}
-
+.centre{
+	text-align: center;
+}
 	a:hover {
     text-decoration: underline;
 }
