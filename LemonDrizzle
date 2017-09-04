@@ -1,0 +1,147 @@
+<html>
+	<head>
+		<title>Lemon Drizzle Cake</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="RecipeStyle.css">
+        <link rel="stylesheet" type="text/css" href="navStyle.css">
+		<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Stalemate' rel='stylesheet' type='text/css'>
+        <script> 
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75938346-1', 'auto');
+  ga('send', 'pageview');
+</script>
+	</head>
+
+	<body>
+		<div id="sidebar">
+		<h1>No Clucks Given</h1>
+		<h2>Vegan Inspiration</h2>
+		<ul class='nav'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutMe">About Me</a></li>
+            <li><a href="Recipes">Recipes</a></li>
+            <li><a href="Nutrition">Nutrition</a></li>
+            <li><a href="tips">Handy Tips</a></li>
+            <li><a href="Motivation">Motivation</a></li>
+        </ul>
+    </div>
+    <div id="contentWrap">
+    	
+   		 <div class="recipe">
+        
+    	<h1>Lemon Drizzle Cake</h1>
+        <p class="Intro">This recipe is adopted from <a href="http://www.independent.co.uk/life-style/food-and-drink/features/great-british-bake-off-these-vegan-recipes-are-a-piece-of-cake-9666189.html">Great British Bake Off</a> </p>
+        <div class="outer long">
+            <div class="image extra">
+                <div id="myCarousel" class="carousel slide" data-interval="false">
+                <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/LemonDrizzle Carousel/L1.JPG" alt="Cooling">
+                </div>
+
+                <div class="item">
+                  <img src="images/LemonDrizzle Carousel/L2.JPG" alt="Lemon zest">
+                </div>
+
+                <div class="item">
+                  <img src="images/LemonDrizzle Carousel/L3.JPG" alt="Prep">
+                </div>
+
+                <div class="item">
+                  <img src="images/LemonDrizzle Carousel/L4.JPG" alt="Baked">
+                </div>  
+
+                <div class="item">
+                  <img src="images/LemonDrizzle Carousel/L5.JPG" alt="Drizzle">
+                </div>               
+              </div>
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+            <!--<img src="images/ToffeePudding.jpg" alt="Sticky Toffee Pudding">-->
+        </div>
+    <div class="text">
+    	<h2>Ingredients</h2>
+        
+        <h3>Cake batter</h3>
+        <ul>
+            <li>1 1/2 Cup (250g) Plain Flour</li>
+            <li>2 tsp Baking Powder</li>
+            <li>3/4 Cup and 3 tbsp (170g) Caster Sugar</li>
+            <li>2 tbsp Agave Syrup</li>
+            <li>1/3 Cup (70ml) Vegetable Oil</li>
+            <li>1 cup (250ml) Soya Milk</li>
+            <li>2 tsp Apple Cider Vinegar</li>
+            <li>1/4 tsp salt</li>
+            <li>2 tbsp lemon juice</li>
+            <li>Zest of 1 large (or 2 small) lemon</li>
+            
+        </ul>
+        <h3>Lemon Drizzle</h3>
+    	<ul>
+            <li>Juice of 1 lemon</li>
+    		<li>2 tbsp granulated sugar</li>
+     	</ul>
+</div>
+
+</div>
+<div class="method">
+    	<h2>Method</h2>
+
+        <h3>To make the cake:</h3>
+        <p>Lightly oil a loaf tin (5"x9") and line the bottom with non-stick baking paper.</p>
+        <p>Preheat the oven to 180°C</p>
+        <p>Sift the flour, baking powder and salt into a large mixing bowl and mix.</p>
+        <p>In a separate bowl mix together the sugar, agave syrup, oil, milk, vinegar and lemon juice.</p>
+        <p>Zest the lemon and stir in the lemon zest.</p>
+        <p>Add the wet ingredients to the dry ingredients and stir together.</p>
+        <p>Pour into the loaf tin and place on the middle shelf of the oven.</p>
+        <p>Bake until skewer inserted in the middle comes out clean (about 40 mins)</p>
+        <p>Once baked remove from the oven. Pierce all over with a cocktail stick (allowing the drizzle to pour inside). Spoon the drizzle evenly over the cake.</p>
+        <p>Allow the cake to cool for 30 mins before transferring to a cooling rack. Leave to cool completely before storing.</p>
+
+
+        <h3>To make the Drizzle:</h3>
+    	<p>Squueze the juice of one lemon into a bowl (if you dont have a juicer twist a fork in the lemon whilst squeezing)</p>
+        <p>Stir with the sugar to combine</p>
+    </br></br>
+
+</div>
+        
+	</div>
+     <div class="row footer">
+    <div class="col-sm-12">
+    <div class="col-sm-4">
+        <h3>Love Life</h3>
+    </div>
+    <div class="col-sm-4">
+        <h3>Love Nature</h3>
+    </div>
+<div class="col-sm-4">
+        <h3>Love Your Body</h3>
+    </div>
+</div>
+    </div>
+    </div>
+	</body>
+</html>
